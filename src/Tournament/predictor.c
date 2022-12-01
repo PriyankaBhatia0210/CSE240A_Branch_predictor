@@ -240,6 +240,6 @@ train_predictor(uint32_t pc, uint8_t outcome)
   }
 
   phist = (phist << 1) | outcome;
-	phist = phist & (globalEntries - 1);
+  phist = phist & (globalEntries - 1);
 
 }
